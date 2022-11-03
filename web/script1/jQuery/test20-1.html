@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jQuery.com/jQuery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script>
+       $('.multiple-items').slick({
+         infinite: true,
+         slidesToShow: 3,
+         slidesToScroll: 3
+      });
+
+    </script>
+</head>
+<body>
+    <div class="multiple-items">
+        <div class="multiple-items">
+            <img class="image" src="image/blue1.jpg" alt="">
+            <img class="image" src="image/beach.jpg" alt="">
+            <img class="image" src="image/beach1.jpg" alt="">
+            <img class="image" src="image/sea.jpg" alt="">
+            <div class="image">
+                <h1>이미지가 아닌 것</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

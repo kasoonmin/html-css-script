@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스 박스</title>
+    <style>
+        #container{
+            width: 500px;
+            height: 100px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            border: 2px solid black;
+        }
+        #container div{
+            width: 200px;
+            border: 2px solid black;
+            background: #ccc;
+           
+        }
+        #box1{
+            align-self: flex-start;
+        }
+        
+        p{
+            font-weight: bold;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1"><p>box1</p></div>
+        <div id="box2"><p>box2</p></div>
+        <div id="box3"><p>box3</p></div>
+    </div>
+
+    
+</body>
+</html>

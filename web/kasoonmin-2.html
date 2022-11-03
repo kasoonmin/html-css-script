@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+       h2{
+        color: rgb(57, 136, 110);
+        font-size: 20px;
+       }
+
+       header{
+        margin-bottom: 10px;
+        text-align: center ;
+        width: 100%;
+        height: 150px;
+        border: 1px solid rgb(57, 136, 110);
+        background-color: rgb(210, 230, 220);
+       }
+       header #logo{
+        
+        float: left ;
+        margin: 40px;
+       }
+       header h2{
+        
+        margin-left: 500px;
+        height: 100px;
+        float: left;
+        text-align: center;
+        margin-right: 200px;
+       
+        
+       }
+       .menu{
+        margin-right: 200px;
+        margin-top: 50px;
+        
+             
+       }
+
+       
+
+       header ul li{
+        position: relative;
+        padding: 2px;
+        float: right;
+        list-style: none;
+        display: inline ;
+        color: black;
+        background-color: whitesmoke;
+        
+           
+       }
+
+       header ul li a{
+        text-decoration: none;
+        
+       }
+
+    
+       :hover > a {
+        color: red;
+       }
+       
+       nav{
+        margin-bottom: 10px;
+        width: 100%;
+        height: 80px;
+        border: 2px solid rgb(57, 136, 110);
+       }
+       .centent{
+        margin-bottom: 10px;
+        width: 70%;
+        height: 500px;
+        border: 2px solid rgb(57, 136, 110);
+        float: left;
+       }
+
+       aside{
+        border: 2px solid rgb(57, 136, 110);
+        width: 27%;
+        height: 500px;
+        float: right;
+        
+        
+       }
+       footer{
+        width: 100%;
+        height: 150px;
+        border: 2px solid rgb(57, 136, 110);
+        clear: both;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+        <div>
+         <header>
+            <img src="test/logo1.png" id="logo">
+            <h2>상단 헤더</h2>
+            <ul class="menu">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+             </ul>
+            
+         </header>
+        </div>
+        <div>
+            <nav>
+                <h2>내비게이션 메뉴</h2>
+            </nav>
+        </div>
+        <div>
+            <div class="centent">
+            <h2>메인 콘텐츠</h2>
+        </div>
+            
+        </div>
+        <div>
+            <aside>
+                <h2>사이드바</h2>
+
+            </aside>
+        </div>
+        <div>
+            <footer>
+                <h2>하단 푸터</h2>
+            </footer>
+        </div>
+    </section>
+
+    </div>
+    
+</body>
+</html>

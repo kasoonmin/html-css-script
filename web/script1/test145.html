@@ -1,0 +1,24 @@
+<script>
+    //객체를 선언합니다.
+    const students = []
+    students.push({이름:'구름',국어:85, 영어:98,수학:90,과학:91})
+    students.push({이름:'별이',국어:75, 영어:92,수학:88,과학:95})
+    students.push({이름:'겨울',국어:84, 영어:95,수학:89,과학:80})
+    students.push({이름:'바다',국어:97, 영어:79,수학:81,과학:90})
+
+    //객체를 처리하는 함수를 선언합니다.
+    function getSumOf(student){
+        return student.국어 + student.영어 + student.수학 + student.과학
+    }
+
+    function getAverageOf(student){
+        return getSumOf(student)/4
+    }
+
+    //출력합니다
+    let output = '이름\t총점\t평균\n'
+    for(const s of students){
+        output += `${s.이름}\t${getSumOf(s)}점\t${getAverageOf(s)}점\n`
+    }
+    console.log(output)
+</script>
